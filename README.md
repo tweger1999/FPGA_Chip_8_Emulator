@@ -65,23 +65,22 @@ Grade: 5th Year Senior
 
 
 # About
-## Inspiration
+### Inspiration
 The members of the group all learned about FPGAs in class, but had no experience designing a large scale project involving them. The CHIP-8 emulator seemed like a fun and challenging project for an otherwise professional use cases of the emerging technology. 
 
-## What it does
+### What it does
 The CHIP-8 Emulator is a virtual machine with a collection of retro arcade games, there is also implementation to create personal games.
 
-## Construction
+### Construction
 We used a hardware description language to program individual components such as a program counter, display, memory, alu, instruction decoder, controller input, timer, and a stack.
 
-## Challenges
+### Challenges
 Synthesis time for the program can be minutes long, adding valuable time to debugging times. VHDL error messages can also be cryptic, leading to intense bug finding.
 
-## Accomplishments that we're proud of 
+### Accomplishments that we're proud of 
 
-## What we learned 
-## What's next for Chip8 FPGA Emulator
-
+### What we learned 
+### What's next for Chip8 FPGA Emulator
 
 # Hardware
 
