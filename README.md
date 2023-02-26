@@ -3,7 +3,7 @@
 
 # Overview
 
-CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FPGA allows the playback of a collection of classical games. New demos and simple games can also be implemented.
+Using a Zedboard FPGA, we created a hardware Chip-8 emulator that uses I2C protocol to display graphics on a monitor. 
 
 # About The Team
 
@@ -62,7 +62,6 @@ Grade: 5th Year Senior
 </div>
 
 ----
-
 
 # About the Project
 ### Inspiration
