@@ -45,7 +45,11 @@ Major: Electrical Engineer
 
 Grade: 5th Year Senior
 
-[LinkedIn - Tristan](https://www.linkedin.com/in/tristan-weger)
+<div id="badges">
+  <a href="https://www.linkedin.com/in/tristan-weger">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedinT&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
 
 ----
 
