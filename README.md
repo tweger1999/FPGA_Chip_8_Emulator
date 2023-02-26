@@ -45,7 +45,7 @@ Grade: 5th Year Senior
 
 ----
 
-<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221405095-df3afd8c-0474-40a7-868e-06c39364ef69.png" />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221405171-797f5b2a-97aa-4b0a-93cc-f1bab1f0df10.png" />
 
 ## Josh Smith
 
