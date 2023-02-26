@@ -5,12 +5,6 @@ Chip 8 emulator built in VHDL using Zedboard FPGA's VGA output
 
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/tristan-weger">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://mail.google.com/mail/u/0/?source=mailto&to=tweger1999@gmail.com&fs=1&tf=cm">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
-  <a href="https://youtube.com/@tristan995">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="Tristan LinkedIn Badge"/>
   </a>
 </div>
