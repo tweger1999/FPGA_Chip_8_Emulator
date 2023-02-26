@@ -15,6 +15,9 @@ Major: Computer Engineer
 
 Grade: 5th Year Senior
 
+
+
+
 <img align="left" width="180" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
 
 ## Josh Smith
@@ -24,6 +27,8 @@ Program: University of Cincinnati CEAS
 Major: Electrical Engineer
 
 Grade: 5th Year Senior
+
+
 
 
 <img align="left" width="180" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
