@@ -5,7 +5,7 @@ CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FP
 
 # About The Team
 
-<img align="left" width="150" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+<img align="left" width="180" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
 
 ## Tristan Weger
 
