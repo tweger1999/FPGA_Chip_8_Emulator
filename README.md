@@ -70,7 +70,8 @@ CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FP
 # Hardware
 
 ## Zedboard Zync-7000 FPGA Development Board
-<img src="https://user-images.githubusercontent.com/87651777/221394046-3c59e159-c2c3-4b6c-aa51-3eef61cb7b0e.png" width="500" >
+<img src="https://user-images.githubusercontent.com/87651777/221396509-1af42369-689a-42a5-91a0-bfc4bb16ccc3.png" width="500" >
+
 
 # Software
 
