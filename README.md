@@ -11,6 +11,24 @@ Using a Zedboard FPGA, we created a hardware Chip-8 emulator that uses I2C proto
 
 <img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
 
+## Tristan Weger
+
+Program: University of Cincinnati CEAS
+
+Major: Electrical Engineer
+
+Grade: 5th Year Senior
+
+<div id="badges"  align="left">
+  <a href="https://www.linkedin.com/in/tristan-weger">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
+
+----
+
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+
 ## Nathan Henry
 
 Program: University of Cincinnati CEAS
@@ -27,7 +45,7 @@ Grade: 5th Year Senior
 
 ----
 
-<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221405095-df3afd8c-0474-40a7-868e-06c39364ef69.png" />
 
 ## Josh Smith
 
@@ -39,24 +57,6 @@ Grade: 5th Year Senior
 
 <div id="badges"  align="left">
   <a href="https://www.linkedin.com/in/joshua-smith-582538185/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-</div>
-
-----
-
-<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
-
-## Tristan Weger
-
-Program: University of Cincinnati CEAS
-
-Major: Electrical Engineer
-
-Grade: 5th Year Senior
-
-<div id="badges"  align="left">
-  <a href="https://www.linkedin.com/in/tristan-weger">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
