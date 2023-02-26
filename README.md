@@ -15,6 +15,8 @@ Major: Computer Engineer
 
 Grade: 5th Year Senior
 
+[LinkedIn - Nathan]()
+
 ----
 
 <img align="left" width="180" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
@@ -26,6 +28,8 @@ Program: University of Cincinnati CEAS
 Major: Electrical Engineer
 
 Grade: 5th Year Senior
+
+[LinkedIn - Josh]()
 
 ----
 
@@ -39,22 +43,7 @@ Major: Electrical Engineer
 
 Grade: 5th Year Senior
 
-const boxt = require('boxt');
-
-boxt(`I have a message
-It might be multilined`);
-
-boxt(
-	'Guests, like fish, begin to smell after three days.',
-	{
-		color: 'green',
-		theme: 'round',
-		padding: 4,
-		align: 'center',
-		minWidth: 100
-	}
-);
-
+[LinkedIn - Tristan]()
 
 # Overview
 
