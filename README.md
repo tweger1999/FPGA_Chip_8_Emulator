@@ -1,7 +1,7 @@
 ![Header](https://user-images.githubusercontent.com/87651777/221392305-486b690e-5ab1-40d6-ac23-1b9d156f5f37.png)
 
 # FPGA Chip-8 Emulator
-CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FPGA allows the playback of a collection of classical games. New demos and simple games can also be implemented.
+
 
 # About The Team
 
@@ -64,6 +64,8 @@ Grade: 5th Year Senior
 ----
 
 # Overview
+
+CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FPGA allows the playback of a collection of classical games. New demos and simple games can also be implemented.
 
 # Hardware
 
