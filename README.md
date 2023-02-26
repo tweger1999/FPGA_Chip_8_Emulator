@@ -20,6 +20,7 @@ Major: Electrical Engineer
 # Hardware
 
 ## Zedboard Zync-7000 FPGA Development Board
+<img src="https://user-images.githubusercontent.com/87651777/221394046-3c59e159-c2c3-4b6c-aa51-3eef61cb7b0e.png" width="500" >
 
 # Software
 
