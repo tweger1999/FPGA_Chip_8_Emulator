@@ -73,6 +73,9 @@ Grade: 5th Year Senior
 
 # Software
 
+## Chip-8
+<img src="https://user-images.githubusercontent.com/87651777/221398254-e43ab614-25f0-4445-adeb-a94319008508.png" width="500" >
+
 ## Xilinx Vivado
 <img src="https://user-images.githubusercontent.com/87651777/221397199-6f63e066-5215-4f59-86e7-05781f03f6dc.png" width="500" >
 
