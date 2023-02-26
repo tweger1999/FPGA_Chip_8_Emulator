@@ -1,19 +1,31 @@
 ![Header](https://user-images.githubusercontent.com/87651777/221392305-486b690e-5ab1-40d6-ac23-1b9d156f5f37.png)
 
 # FPGA Chip-8 Emulator
-Chip 8 emulator built in VHDL using Zedboard FPGA's VGA output
-
+CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FPGA allows the playback of a collection of classical games. New demos and simple games can also be implemented.
 
 # About The Team
 
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+
+# Headline 
+
+Some text
+
 ## Nathan Henry
+Program: University of Cincinnati CEAS
 Major: Computer Engineer
+Grade: 5th Year Senior
 
 ## Josh Smith
+Program: University of Cincinnati CEAS
 Major: Electrical Engineer
+Grade: 5th Year Senior
 
 ## Tristan Weger
+Program: University of Cincinnati CEAS
 Major: Electrical Engineer
+Grade: 5th Year Senior
+
 
 # Overview
 
