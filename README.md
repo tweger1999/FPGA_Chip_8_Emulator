@@ -27,7 +27,7 @@ Grade: 5th Year Senior
 
 ----
 
-<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221405124-0ec87b37-7d9f-4f2f-a44b-d927e5938dcf.png" />
 
 ## Nathan Henry
 
