@@ -3,8 +3,24 @@
 # FPGA Chip-8 Emulator
 Chip 8 emulator built in VHDL using Zedboard FPGA's VGA output
 
-<div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/tristan-weger">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="Tristan LinkedIn Badge"/>
-  </a>
-</div>
+
+# About The Team
+
+## Nathan Henry
+Major: Computer Engineer
+
+## Josh Smith
+Major: Electrical Engineer
+
+## Tristan Weger
+Major: Electrical Engineer
+
+# Overview
+
+# Hardware
+
+## Zedboard Zync-7000 FPGA Development Board
+
+# Software
+
+## Xilinx Vivado
