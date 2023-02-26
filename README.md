@@ -39,6 +39,10 @@ Major: Electrical Engineer
 
 Grade: 5th Year Senior
 
+const boxt = require('boxt');
+
+boxt(`I have a message
+It might be multilined`);
 
 boxt(
 	'Guests, like fish, begin to smell after three days.',
