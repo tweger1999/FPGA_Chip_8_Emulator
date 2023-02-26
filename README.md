@@ -76,6 +76,8 @@ Grade: 5th Year Senior
 ## Chip-8
 <img src="https://user-images.githubusercontent.com/87651777/221398254-e43ab614-25f0-4445-adeb-a94319008508.png" width="500" >
 
+  - Chip 8 is an interpreted programming language designed for early home computers, particularly the COSMAC VIP and Telmac 1800. It uses a simple virtual machine architecture, with programs written in hexadecimal code that are executed by an interpreter running on the target hardware. The Chip 8 system was primarily used for developing simple video games, with support for graphics, sound, and user input. While the Chip 8 system was not widely adopted in its day, it has since become a popular platform for emulation enthusiasts and hobbyists. Its simple architecture and ease of programming make it a popular choice for learning about computer architecture and low-level programming.
+
 ## Xilinx Vivado
 <img src="https://user-images.githubusercontent.com/87651777/221397199-6f63e066-5215-4f59-86e7-05781f03f6dc.png" width="500" >
 
