@@ -64,6 +64,23 @@ Grade: 5th Year Senior
 ----
 
 
+# About
+## Inspiration
+The members of the group all learned about FPGAs in class, but had no experience designing a large scale project involving them. The CHIP-8 emulator seemed like a fun and challenging project for an otherwise professional use cases of the emerging technology. ## What it does
+The CHIP-8 Emulator is a virtual machine with a collection of retro arcade games, there is also implementation to create personal games.
+
+## Construction
+We used a hardware description language to program individual components such as a program counter, display, memory, alu, instruction decoder, controller input, timer, and a stack.
+
+## Challenges
+Synthesis time for the program can be minutes long, adding valuable time to debugging times. VHDL error messages can also be cryptic, leading to intense bug finding.
+
+## Accomplishments that we're proud of 
+
+## What we learned 
+## What's next for Chip8 FPGA Emulator
+
+
 # Hardware
 
 ## Zedboard Zync-7000 FPGA Development Board
@@ -82,19 +99,3 @@ Grade: 5th Year Senior
 <img src="https://user-images.githubusercontent.com/87651777/221397199-6f63e066-5215-4f59-86e7-05781f03f6dc.png" width="500" >
 
   - Xilinx Vivado is a popular software tool used for designing and programming Field-Programmable Gate Arrays (FPGAs) and System on Chip (SoC) devices. It provides a comprehensive suite of tools for designing and optimizing digital circuits, including a design environment, synthesis tools, simulation capabilities, and debug features. Vivado also supports high-level design languages such as C/C++ and SystemC, allowing designers to quickly implement complex designs. Additionally, Vivado includes advanced optimization features such as high-level synthesis and partial reconfiguration, which can significantly improve design efficiency and reduce development time. Overall, Xilinx Vivado is a powerful tool for digital circuit design that has become a popular choice for many FPGA and SoC designers.
-
-# About
-## Inspiration
-The members of the group all learned about FPGAs in class, but had no experience designing a large scale project involving them. The CHIP-8 emulator seemed like a fun and challenging project for an otherwise professional use cases of the emerging technology. ## What it does
-The CHIP-8 Emulator is a virtual machine with a collection of retro arcade games, there is also implementation to create personal games.
-
-## Construction
-We used a hardware description language to program individual components such as a program counter, display, memory, alu, instruction decoder, controller input, timer, and a stack.
-
-## Challenges
-Synthesis time for the program can be minutes long, adding valuable time to debugging times. VHDL error messages can also be cryptic, leading to intense bug finding.
-
-## Accomplishments that we're proud of 
-
-## What we learned 
-## What's next for Chip8 FPGA Emulator
