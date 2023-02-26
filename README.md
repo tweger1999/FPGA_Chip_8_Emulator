@@ -39,17 +39,17 @@ Grade: 5th Year Senior
 
 ## Tristan Weger
 
+<div id="badges">
+  <a href="https://www.linkedin.com/in/tristan-weger">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
+
 Program: University of Cincinnati CEAS
 
 Major: Electrical Engineer
 
 Grade: 5th Year Senior
-
-<div id="badges">
-  <a href="https://www.linkedin.com/in/tristan-weger">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedinT&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-</div>
 
 ----
 
