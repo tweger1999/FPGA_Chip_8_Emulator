@@ -20,7 +20,7 @@ Major: Computer Engineer
 Grade: 5th Year Senior
 
 <div id="badges"  align="left">
-  <a href="">
+  <a href="https://www.linkedin.com/in/nathan-h-henry/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
@@ -38,7 +38,7 @@ Major: Electrical Engineer
 Grade: 5th Year Senior
 
 <div id="badges"  align="left">
-  <a href="">
+  <a href="https://www.linkedin.com/in/joshua-smith-582538185/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
