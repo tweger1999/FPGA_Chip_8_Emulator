@@ -66,7 +66,9 @@ Grade: 5th Year Senior
 
 # About
 ## Inspiration
-The members of the group all learned about FPGAs in class, but had no experience designing a large scale project involving them. The CHIP-8 emulator seemed like a fun and challenging project for an otherwise professional use cases of the emerging technology. ## What it does
+The members of the group all learned about FPGAs in class, but had no experience designing a large scale project involving them. The CHIP-8 emulator seemed like a fun and challenging project for an otherwise professional use cases of the emerging technology. 
+
+## What it does
 The CHIP-8 Emulator is a virtual machine with a collection of retro arcade games, there is also implementation to create personal games.
 
 ## Construction
