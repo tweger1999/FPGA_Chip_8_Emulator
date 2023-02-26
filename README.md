@@ -45,9 +45,9 @@ Major: Electrical Engineer
 
 Grade: 5th Year Senior
 
-----
-
 [LinkedIn - Tristan]()
+
+----
 
 # Overview
 
