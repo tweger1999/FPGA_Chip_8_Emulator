@@ -7,7 +7,7 @@ CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FP
 
 ----
 
-<img align="left" width="180" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
 
 ## Nathan Henry
 
@@ -21,7 +21,7 @@ Grade: 5th Year Senior
 
 ----
 
-<img align="left" width="180" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
 
 ## Josh Smith
 
@@ -35,7 +35,7 @@ Grade: 5th Year Senior
 
 ----
 
-<img align="left" width="180" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
 
 ## Tristan Weger
 
@@ -45,7 +45,7 @@ Major: Electrical Engineer
 
 Grade: 5th Year Senior
 
-[LinkedIn - Tristan]()
+[LinkedIn - Tristan](https://www.linkedin.com/in/tristan-weger)
 
 ----
 
