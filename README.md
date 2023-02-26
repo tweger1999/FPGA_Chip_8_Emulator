@@ -40,21 +40,16 @@ Major: Electrical Engineer
 Grade: 5th Year Senior
 
 
-
-## Nathan Henry
-Program: University of Cincinnati CEAS
-Major: Computer Engineer
-Grade: 5th Year Senior
-
-## Josh Smith
-Program: University of Cincinnati CEAS
-Major: Electrical Engineer
-Grade: 5th Year Senior
-
-## Tristan Weger
-Program: University of Cincinnati CEAS
-Major: Electrical Engineer
-Grade: 5th Year Senior
+boxt(
+	'Guests, like fish, begin to smell after three days.',
+	{
+		color: 'green',
+		theme: 'round',
+		padding: 4,
+		align: 'center',
+		minWidth: 100
+	}
+);
 
 
 # Overview
