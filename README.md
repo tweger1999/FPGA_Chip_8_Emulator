@@ -75,4 +75,4 @@ Grade: 5th Year Senior
 ## Xilinx Vivado
 <img src="https://user-images.githubusercontent.com/87651777/221397199-6f63e066-5215-4f59-86e7-05781f03f6dc.png" width="500" >
 
-
+Xilinx Vivado is a popular software tool used for designing and programming Field-Programmable Gate Arrays (FPGAs) and System on Chip (SoC) devices. It provides a comprehensive suite of tools for designing and optimizing digital circuits, including a design environment, synthesis tools, simulation capabilities, and debug features. Vivado also supports high-level design languages such as C/C++ and SystemC, allowing designers to quickly implement complex designs. Additionally, Vivado includes advanced optimization features such as high-level synthesis and partial reconfiguration, which can significantly improve design efficiency and reduce development time. Overall, Xilinx Vivado is a powerful tool for digital circuit design that has become a popular choice for many FPGA and SoC designers.
