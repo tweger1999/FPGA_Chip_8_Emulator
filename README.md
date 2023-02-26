@@ -5,11 +5,15 @@ CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FP
 
 # About The Team
 
-<img align="left" width="200" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
+<img align="left" width="150" src="https://user-images.githubusercontent.com/87651777/221395366-a7787fb8-26bd-465f-946d-baeb3075399f.png" />
 
-# Headline 
+## Tristan Weger
 
-Some text
+Program: University of Cincinnati CEAS
+Major: Electrical Engineer
+Grade: 5th Year Senior
+
+
 
 ## Nathan Henry
 Program: University of Cincinnati CEAS
