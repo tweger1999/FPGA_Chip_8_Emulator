@@ -35,6 +35,7 @@ entity ProgramCounter is
     Port ( Data_in : in STD_LOGIC_VECTOR (15 downto 0);
            Data_out : out STD_LOGIC_VECTOR (15 downto 0);
            Clk : in STD_LOGIC;
+           count_enable : IN std_logic;
            Reset : in STD_LOGIC;
            Jump : in STD_LOGIC);
 end ProgramCounter;
@@ -46,13 +47,15 @@ process(Clk) is
 begin
 
 if Rising_edge(Clk) then
-if Reset = '1' then
-current_count <= (others=>'0');
-elsif Jump='1' then
-current_count <= data_in;
-else
-current_count <= STD_LOGIC_VECTOR(unsigned(Current_count)+1); 
-end if;
+    if Reset = '1' then
+        current_count <= x"01FF";
+    elsif Jump='1' then
+        current_count <= data_in;
+    elsif count_enable = '1' then
+        current_count <= STD_LOGIC_VECTOR(unsigned(Current_count)+1); 
+    else
+        current_count <= current_count;
+    end if;
 end if;
 end process;
 

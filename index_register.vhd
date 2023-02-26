@@ -12,8 +12,8 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity index_register is
     port(
-        data_in : in std_logic_vector(7 downto 0);
-        data_out : out std_logic_vector(7 downto 0);
+        data_in : in std_logic_vector(15 downto 0);
+        data_out : out std_logic_vector(15 downto 0);
         
         write     : in std_logic;
         rst     : in std_logic;

@@ -34,8 +34,18 @@ use IEEE.NUMERIC_STD.ALL;
 entity register_file is
     port(
         reg_id  : in std_logic_vector(3 downto 0);
+        reg_id2  : in std_logic_vector(3 downto 0);
         data_in : in std_logic_vector(7 downto 0);
         data_out : out std_logic_vector(7 downto 0);
+        data_out2 : out std_logic_vector(7 downto 0);
+        
+        add_en : in std_logic;
+        add_value : in std_logic_vector(7 downto 0);
+        
+        x_value_index : in std_logic_vector(3 downto 0);
+        y_value_index : in std_logic_vector(3 downto 0);
+        x_value : out std_logic_vector(7 downto 0);
+        y_value : out std_logic_vector(7 downto 0);
         
         write     : in std_logic;
         rst     : in std_logic;
@@ -57,10 +67,19 @@ begin
             reg_file <= (others => (others => '0'));
         elsif write = '1' then
             reg_file(to_integer(unsigned(reg_id))) <= data_in;
+        elsif add_en = '1' then
+            reg_file(0) <= std_logic_vector(unsigned(reg_file(0)) + unsigned(add_value));
+            --if unsigned(reg_file(to_integer(unsigned(reg_id)))) < 20 then
+            --reg_file(to_integer(unsigned(reg_id))) <= std_logic_vector( unsigned(reg_file( to_integer( unsigned(reg_id) )) )+ 9 );
+            --end if;
         else
             data_out <= reg_file(to_integer(unsigned(reg_id)));
+            data_out2 <= reg_file(to_integer(unsigned(reg_id2)));
         end if;
     end if;
-end process;    
+end process;   
+
+ x_value <= reg_file(to_integer(unsigned(x_value_index)));
+ y_value <= reg_file(to_integer(unsigned(y_value_index)));
 
 end Behavioral;

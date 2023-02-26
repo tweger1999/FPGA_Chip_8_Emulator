@@ -83,7 +83,7 @@
 # ----------------------------------------------------------------------------
 # Clock Source - Bank 13
 # ---------------------------------------------------------------------------- 
-set_property PACKAGE_PIN Y9 [get_ports {CLK_100}];  # "GCLK"
+set_property PACKAGE_PIN Y9 [get_ports {sys_clk}];  # "GCLK"
 
 
 
@@ -243,7 +243,7 @@ set_property PACKAGE_PIN Y19  [get_ports {Vsync}];  # "VGA-VS"
 ## ----------------------------------------------------------------------------
 ## User DIP Switches - Bank 35
 ## ---------------------------------------------------------------------------- 
-#set_property PACKAGE_PIN F22 [get_ports {SW0}];  # "SW0"
+set_property PACKAGE_PIN F22 [get_ports {sys_rst}];  # "SW0"
 #set_property PACKAGE_PIN G22 [get_ports {SW1}];  # "SW1"
 #set_property PACKAGE_PIN H22 [get_ports {SW2}];  # "SW2"
 #set_property PACKAGE_PIN F21 [get_ports {SW3}];  # "SW3"

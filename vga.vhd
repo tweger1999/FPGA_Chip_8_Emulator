@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity VGA_Test is
+entity VGA_Out is
 Port (
     CLK_100          : in STD_LOGIC := '0' ;
     clear_screen     : in std_logic;
@@ -14,11 +14,27 @@ Port (
     GREEN            : out STD_LOGIC_VECTOR( 3 downto 0) := "0000";
     BLUE             : out STD_LOGIC_VECTOR( 3 downto 0) := "0000";
     Hsync            : out STD_LOGIC := '0';
-    Vsync            : out STD_LOGIC := '0'
+    Vsync            : out STD_LOGIC := '0';
+    data0 : in std_logic_vector(7 downto 0);
+    data1 : in std_logic_vector(7 downto 0);
+    data2 : in std_logic_vector(7 downto 0);
+    data3 : in std_logic_vector(7 downto 0);
+    data4 : in std_logic_vector(7 downto 0);
+    data5 : in std_logic_vector(7 downto 0);
+    data6 : in std_logic_vector(7 downto 0);
+    data7 : in std_logic_vector(7 downto 0);
+    data8 : in std_logic_vector(7 downto 0);
+    data9 : in std_logic_vector(7 downto 0);
+    data10 : in std_logic_vector(7 downto 0);
+    data11 : in std_logic_vector(7 downto 0);
+    data12 : in std_logic_vector(7 downto 0);
+    data13 : in std_logic_vector(7 downto 0);
+    data14 : in std_logic_vector(7 downto 0);
+    data15 : in std_logic_vector(7 downto 0)
 );
-end VGA_Test;
+end VGA_Out;
 
-architecture VGA_output of VGA_Test is
+architecture VGA_output of VGA_Out is
 
 -- Holds Screen data
 type t_Screen_Mem is array (0 to 31) of std_logic_vector(63 downto 0);
@@ -54,16 +70,31 @@ signal displayarea : std_logic;
 
 signal drawPixel : std_logic;
 
+signal line_to_draw_data : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data2 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data3 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data4 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data5 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data6 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data7 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data8 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data9 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data10 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data11 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data12 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data13 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data14 : std_logic_vector(63 downto 0) := x"0000000000000000";
+signal line_to_draw_data15 : std_logic_vector(63 downto 0) := x"0000000000000000";
 
 
 -- Component Declaration for the Pixel Clock IP
 -- This will only be used in this VGA File I believe
-component clk_wiz_0 is
+component clk_wiz_1 is
 port (
     clk_in1 : in std_logic;
     clk_out1 : out std_logic
 );
-end component clk_wiz_0;
+end component clk_wiz_1;
 
 begin
 
@@ -71,7 +102,12 @@ begin
 -- Vivado IP Clock Wizard, generated a 100MHz to 25.173 MHz clock
 ---------------Generate PixelClock part-------------------------
 -- Use the module of CLK generator 25.173Mhz
-CLK1: clk_wiz_0 port map(CLK_100,CLK25173);
+CLK1: clk_wiz_1 port map(
+    CLK_100,
+    CLK25173
+    );
+    
+    
 PixelClock <= CLK25173;
 ---------------Generate PixelClock part-------------------------
 
@@ -154,14 +190,51 @@ end process;
         if clear_screen = '1' then
             disp_data <= (others => (others => '0'));
         elsif draw_en = '1' then
-            disp_data(10) <= disp_data(10) or x"0000FFFFFFFF0000";
-            disp_data(11) <= disp_data(10) or x"0000FFFFFFFF0000";
-            disp_data(12) <= disp_data(10) or x"0000FFFFFFFF0000";
-            disp_data(13) <= disp_data(10) or x"0000FFFFFFFF0000";
-            disp_data(14) <= disp_data(10) or x"0000FFFFFFFF0000";
-            disp_data(15) <= disp_data(10) or x"0000FFFFFFFF0000";
-            disp_data(16) <= disp_data(10) or x"0000FFFFFFFF0000";
-            disp_data(17) <= disp_data(10) or x"0000FFFFFFFF0000";
+            
+            for i in 0 to 63 loop
+                if (i< unsigned(x_loc)) or (i>unsigned(x_loc)+7) then
+                     line_to_draw_data(i) <= '0';
+                else
+                    line_to_draw_data(i) <=data0( 7-to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data2(i) <= data1(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data3(i) <= data2(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data4(i) <= data3(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data5(i) <= data4(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data6(i) <= data5(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data7(i) <= data6(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data8(i) <= data7(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data9(i) <= data8(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data10(i) <= data9(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data11(i) <= data10(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data12(i) <= data11(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data13(i) <= data12(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data14(i) <= data13(7- to_integer(i-unsigned(x_loc) ) );
+                    line_to_draw_data15(i) <= data14(7- to_integer(i-unsigned(x_loc) ) );
+                end if;
+            end loop;
+            
+            --disp_data(to_integer(unsigned(y_loc))) <= disp_data(to_integer(unsigned(y_loc))) xor line_to_draw_data;
+            
+            disp_data(to_integer(unsigned(y_loc))) <= line_to_draw_data;
+            disp_data(to_integer(unsigned(y_loc))+1) <= line_to_draw_data2;
+            disp_data(to_integer(unsigned(y_loc))+2) <= line_to_draw_data3;
+            disp_data(to_integer(unsigned(y_loc))+3) <= line_to_draw_data4;
+            disp_data(to_integer(unsigned(y_loc))+4) <= line_to_draw_data5;
+
+            disp_data(to_integer(unsigned(y_loc))+5) <= line_to_draw_data6;
+            disp_data(to_integer(unsigned(y_loc))+6) <= line_to_draw_data7;
+            disp_data(to_integer(unsigned(y_loc))+7) <= line_to_draw_data8;
+            disp_data(to_integer(unsigned(y_loc))+8) <= line_to_draw_data9;
+            disp_data(to_integer(unsigned(y_loc))+9) <= line_to_draw_data10;
+            disp_data(to_integer(unsigned(y_loc))+10) <= line_to_draw_data11;
+            disp_data(to_integer(unsigned(y_loc))+11) <= line_to_draw_data12;
+            disp_data(to_integer(unsigned(y_loc))+12) <= line_to_draw_data13;
+            disp_data(to_integer(unsigned(y_loc))+13) <= line_to_draw_data14;
+            disp_data(to_integer(unsigned(y_loc))+14) <= line_to_draw_data15;
+            --disp_data(to_integer(unsigned(y_loc))+5) <= line_to_draw_data6;
+            
+            --disp_data(to_integer(unsigned(y_loc))) <= (others => '1');
+            
         else
             -- If we are in the displayarea, decide what to draw, if not output black
             if displayarea = '1' then
@@ -172,7 +245,7 @@ end process;
                     ver_counter >= std_logic_vector(to_unsigned(100, ver_counter'length)) and ver_counter <= std_logic_vector(to_unsigned(356, ver_counter'length)) then
                     
                     -- Take the horizontal and vertical count subtract the offset and then divide by 8 in order to get an index to the screen data
-                    if disp_data((to_integer(unsigned(hor_counter))-228)/8)((to_integer(unsigned(ver_counter))-100)/8) = '1' then
+                    if disp_data((to_integer(unsigned(ver_counter))-100)/8)((to_integer(unsigned(hor_counter))-228)/8) = '1' then
                             drawPixel <= '1';
                     else
                             drawPixel <= '0';              
@@ -189,14 +262,14 @@ end process;
                 -- Actually draw a pixel, experimenting with colors might be interesting
                 if drawPixel='1' then
                     -- This is our "ON" Pixel
-                    RED <= "1111";
-                    GREEN <= "1111";
-                    BLUE <= "1111";
+                    RED <= "0000";
+                    GREEN <= "0000";
+                    BLUE <= "0000";
                 else
                     -- This is our "OFF" Pixel
                     RED <= "0000";
-                    GREEN <= "0110";
-                    BLUE <= "0111";
+                    GREEN <= "1111";
+                    BLUE <= "0000";
                 end if;
                 
             -- Not in Display Area
