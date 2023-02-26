@@ -11,17 +11,19 @@ CHIP-8 is a virtual machine invented in the 1970s, that when implemented on a FP
 
 ## Nathan Henry
 
-<div id="badges">
-  <a href="">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-</div>
+
 
 Program: University of Cincinnati CEAS
 
 Major: Computer Engineer
 
 Grade: 5th Year Senior
+
+<div id="badges"  align="left">
+  <a href="">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
 
 ----
 
